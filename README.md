@@ -8,7 +8,9 @@ This project builds a machine learning pipeline to detect fraudulent credit card
 
 ## Dataset
 
-- **Source:** [dataset.csv] (see repository)
+- **Source:** [dataset.csv]
+- ![image](https://github.com/user-attachments/assets/9eb79235-c5c7-44d5-916b-15befd2b918b)
+
 - **Features:** 30 anonymized features (V1-V28, Amount, Time)
 - **Target:** `Class` (1 = Fraudulent, 0 = Genuine)
 - **Note:** The full dataset contains over 280,000 records. For computational efficiency and demonstration, we used a subset of approximately **70,000 entries**.
@@ -53,5 +55,11 @@ This project builds a machine learning pipeline to detect fraudulent credit card
 
 ---
 
+## Results
 
+- The model achieved strong recall and F1-score on the test set, indicating good performance in identifying fraudulent transactions.
+- Using a subset of 70,000 entries allowed for faster experimentation without sacrificing evaluation integrity.
 
+## License
+
+MIT License
